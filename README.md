@@ -1,6 +1,6 @@
-# dotDot Sistems
+# dotDotSis
 
-Um produto feito para estudo, se trata de uma api feita em php5.3, com o mysql 5.7, phpmyadmin tudo rodnado dentro de containers
+Um produto feito para estudo, se trata de uma api feita em php5.3, com o mysql 5.7, phpmyadmin tudo rodando dentro de containers
 
 
 ## Installation
@@ -11,7 +11,7 @@ Clone o repositorio
 git clone https://github.com/livioweb/dot.git
 ```
 
-Vamos agora, subir os containers nescessarios para o funcionamento da aplicação. Para isso, conto que vc ja tenha o docker e o docker-compose isntalado na sua maquina
+Vamos agora, subir os containers nescessarios para o funcionamento da aplicação. Para isso, conto que vc ja tenha o docker e o docker-compose instalado na sua maquina
 
 ```sh
 docker-composer up --build
@@ -35,7 +35,7 @@ Agora, vc deve acessar o phpmyadmin e criar a database, nescessaria
 ```
 http://localhost:8080/
 ```
-Os dados dea cesso são:
+Os dados de acesso são:
 
 
 ```
@@ -66,7 +66,7 @@ INSERT INTO `tasks` (`id`, `titulo`, `description`, `priority`) VALUES
 
 ```
 
-Entãoa gora pode acessa o endereço:
+Entãoa gora pode acessar o endereço:
 ```sh
 http://localhost/api/tasks/index.php
 ```
@@ -74,7 +74,7 @@ onde vc vai poder brincar com o dragdrop de prioridades
 
 ## Agora vamos testar a api
 
-Foi criado diverssas rotas(arquivos), foi ate bem nostalgiuco trbaalhar assim, vamos la. 
+Foi criado diversas rotas(arquivos), foi ate bem nostalgico trabalhar assim, então vamos la. 
 
 
 Utilizando o POSTMAN ou outro cliente http de sua preferencia(CURL), vc pode efetuar as chamadas nos seguintes endpoints
@@ -108,7 +108,7 @@ Listar uma Tasks
 ```sh
 http://localhost/api/tasks/readone.php?id=1
 ```
-Alterar task Tasks
+Alterar Tasks
 ```sh
 http://localhost/api/tasks/update.php
 ```
@@ -136,14 +136,10 @@ http://localhost/api/tasks/delete.php
 ```
 
 
-
-## Release History
-
-
 ## Meta
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – liviorodrigueslopes@gmail.com
+Livio Rodrigues Lopes  – liviorodrigueslopes@gmail.com
 
-Distributed under the XYZGNU license. See ``LICENSE`` for more information.
+Distributed under the GNU license. See ``LICENSE`` for more information.
 
 
