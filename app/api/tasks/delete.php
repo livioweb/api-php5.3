@@ -12,9 +12,7 @@ $data = json_decode(file_get_contents("php://input"));
 
 
 $tasksStmt->id = $data->id;
-$tasksStmt->titulo = $data->titulo;
-$tasksStmt->description = $data->description;
-$tasksStmt->priority = $data->priority;
+
 
 // update the product
 if($tasksStmt->deleteTask()){
