@@ -13,7 +13,7 @@ function __MAIN__(){
             echo "Fizz";
         }
         elseif ($mult->verificaMultiploCinco($i)){
-            echo "Fizz";
+            echo "Buzz";
         }else{
             echo $i;
         }
