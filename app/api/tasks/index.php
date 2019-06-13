@@ -7,7 +7,7 @@ $tasks = $tasksStmt->getTasks();
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DragDrop and delete task</title>
+    <title>DragDrop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -15,7 +15,7 @@ $tasks = $tasksStmt->getTasks();
 </head>
 <body>
 <div class="container">
-    <h3 class="text-center">DragDrop and delete task</h3>
+    <h3 class="text-center">Arraste para cima e para baixo, para escolher a prioridade</h3>
     <table class="table table-bordered">
         <tr>
             <th>#</th>
