@@ -1,4 +1,4 @@
-# dotDotSis
+# API - PHP5.3
 
 Um produto feito para estudo, se trata de uma api feita em php5.3, com o mysql 5.7, phpmyadmin tudo rodando dentro de containers
 
